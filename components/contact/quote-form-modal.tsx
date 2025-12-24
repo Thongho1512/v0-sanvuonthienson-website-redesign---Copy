@@ -54,7 +54,7 @@ export default function QuoteFormModal() {
           localStorage.setItem(FORM_SHOWN_KEY, "true")
           setIsOpen(true)
         }
-      }, 180000) // 3 phút
+      }, 1000) // 3 phút
 
       return () => clearTimeout(timer)
     } else {
